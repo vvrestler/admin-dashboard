@@ -1,0 +1,1 @@
+This project was created to practice honing my CSS Grid skills.
