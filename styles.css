@@ -15,6 +15,7 @@ ul {
     list-style-type: none;
 }
 
+
 .sidebar {
     background-color: lightblue;
     grid-row: 1/3;
@@ -29,12 +30,63 @@ ul {
     font-size: 20px;
     padding-top: 10px;
 }
+.search-bar {
+    border: 1px solid black;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.bell,
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
 .communities {
     grid-row: 8/10;
 }
+
+
 .header {
     background-color: #f7f7f7;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
+.header > * {
+    margin: 0 20px;
+}
+.header-top {
+    align-self: center;
+    display: flex;
+}
+.bell {
+    margin-left: auto
+}
+.profile-pic {
+    margin: 0 20px;
+}
+.header-bottom {
+    display: flex;
+    align-items: center;
+}
+.header-bottom > * {
+    margin: 0 20px;
+}
+.header-button {
+    background-color: lightskyblue;
+    height: 30px;
+    width: 60px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.new-button {
+    margin-left: auto;
+}
+
 
 .content {
     background-color: lightgrey;
